@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Roscherk SHA_6';
+  src: url('../Roscherk SHA_6.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+@media (min-device-width: 1920px) and (max-device-width: 2143px) { html { font-size: 14px; } }
+@media (min-device-width: 1760px) and (max-device-width: 1919px), (min-resolution: 1.1dppx) { html { font-size: 12.83px } }
+@media (min-device-width: 1600px) and (max-device-width: 1759px), (min-resolution: 1.2dppx) { html { font-size: 11.67px; } }
+@media (min-device-width: 1472px) and (max-device-width: 1599px), (min-resolution: 1.3dppx) { html { font-size: 10.73px; } }
+@media (min-device-width: 1376px) and (max-device-width: 1471px), (min-resolution: 1.4dppx) { html { font-size: 10.03px; } }
+@media (min-device-width: 1280px) and (max-device-width: 1375px), (min-resolution: 1.5dppx) { html { font-size: 9.33px; } }
+@media (min-device-width: 1216px) and (max-device-width: 1279px), (min-resolution: 1.6dppx) { html { font-size: 8.87px;  } }
+@media (min-device-width: 1120px) and (max-device-width: 1215px), (min-resolution: 1.7dppx) { html { font-size: 8.17px;  } }
+@media (min-device-width: 1056px) and (max-device-width: 1119px), (min-resolution: 1.8dppx) { html { font-size: 7.7px;  } }
+@media (min-device-width: 1024px) and (max-device-width: 1053px), (min-resolution: 1.9dppx) { html { font-size: 7.47px;  } }
+@media (min-device-width: 960px) and (max-device-width: 1023px), (min-resolution: 2.0dppx) { html { font-size: 7px;  } }
+@media (min-device-width: 864px) and (max-device-width: 959px), (min-resolution: 2.2dppx) { html { font-size: 6.3px;  } }
+@media (min-device-width: 800px) and (max-device-width: 863px), (min-resolution: 2.4dppx) { html { font-size: 5.83px;  } }
+@media (min-device-width: 736px) and (max-device-width: 799px), (min-resolution: 2.6dppx) { html { font-size: 5.37px;  } }
+@media (min-device-width: 672px) and (max-device-width: 735px), (min-resolution: 2.8dppx) { html { font-size: 4.9px;  } }
+@media (min-device-width: 640px) and (max-device-width: 671px), (min-resolution: 3.0dppx) { html { font-size: 4.67px;  } }
+@media (min-device-width: 480px) and (max-device-width: 639px), (min-resolution: 4.0dppx) { html { font-size: 3.5px;  } }
+@media (min-device-width: 384px) and (max-device-width: 479px), (min-resolution: 5.0dppx) { html { font-size: 2.8px;  } }
+@media (max-device-width: 384px) { html { font-size: 2.8px;  } }
+
+@media (min-device-width: 2144px) and (max-device-width: 2399px), (max-resolution: 0.9dppx) { html { font-size: 15.63px; } }
+@media (min-device-width: 2400px) and (max-device-width: 2751px), (max-resolution: 0.8dppx) { html { font-size: 17.5px; } }
+@media (min-device-width: 2752px) and (max-device-width: 3199px), (max-resolution: 0.7dppx) { html { font-size: 20.07px; } }
+@media (min-device-width: 3200px) and (max-device-width: 3839px), (max-resolution: 0.6dppx) { html { font-size: 23.33px; } }
+@media (min-device-width: 3840px) and (max-device-width: 4799px), (max-resolution: 0.5dppx)  { html { font-size: 28px; } }
+@media (min-device-width: 4800px) and (max-device-width: 6399px), (max-resolution: 0.4dppx) { html { font-size: 35px; } }
+@media (min-device-width: 6400px) and (max-device-width: 9599px), (max-resolution: 0.3dppx) { html { font-size: 46.66px; } }
+@media (min-device-width: 9600px) and (max-device-width: 10000px), (max-resolution: 0.2dppx) { html { font-size: 70px; } }
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+/*  font-size: 14px;*/
+  background: url(./../i/seamless-pattern-of-ladybug-vector.jpg);
+  background-size: auto 350px;
+  background-size: auto 25rem;
+
+  position: relative;
+/*  width: 137.14rem;*/
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+main {
+  box-sizing: border-box;
+  padding: 0 150px;
+/*  margin-top: 10px;*/
+  font-size: 0;
+  padding-top: 10px;
+  position: relative;
+
+  padding: 0 calc(150 / 14 * 1rem);
+  padding-top: calc(10 / 14 * 1rem);
+}
+main::after {
+  content: '';
+  position: absolute;
+  right: 0px;
+  top: -25px;
+  width: 50px;
+  bottom: 0px;
+  background: url(./../i/left.png);
+  background-size: 100% auto;
+
+  top: calc(-25 / 14 * 1rem);
+  width: calc(50 / 14 * 1rem);
+}
+main::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: -25px;
+  width: 50px;
+  bottom: 0px;
+  background: url(./../i/r.png);
+  background-size: 100% auto;
+
+  top: calc(-25 / 14 * 1rem);
+  width: calc(50 / 14 * 1rem);
+}
+aside {
+  width: 275px;
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: top;
+
+  width: calc(275 / 14 * 1rem);
+  font-size: calc(14 / 14 * 1rem);
+}
+article {
+  width: calc(100% - 300px);
+  margin-left: 25px;
+  display: inline-block;
+  vertical-align: top;
+
+  width: calc(100% - calc(300 / 14 * 1rem));
+  margin-left: calc(25 / 14 * 1rem);
+}

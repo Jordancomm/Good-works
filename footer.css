@@ -1,0 +1,7 @@
+footer {
+  width: 100%;
+  height: 150px;
+  background: #24c33dd4;
+
+  height: calc(150 / 14 * 1rem);
+}

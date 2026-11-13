@@ -1,0 +1,79 @@
+.widgets {
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 10px;
+  background: #24c33d;
+  margin-bottom: 5px;
+
+  border-radius: calc(16 / 14 * 1rem);
+  padding: calc(10 / 14 * 1rem);
+  margin-bottom: calc(5 / 14 * 1rem);
+}
+.widgets-title {
+  color: #fff;
+  font-weight: bold;
+  height: 40px;
+  border-radius: 12px;
+  line-height: 40px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  background: #159a2a;
+
+  height: calc(40 / 14 * 1rem);
+  border-radius: calc(12 / 14 * 1rem);
+  line-height: calc(40 / 14 * 1rem);
+  padding-left: calc(15 / 14 * 1rem);
+}
+.widgets-body {
+  min-height: 250px;
+  background: #fff;
+  border-radius: 16px;
+  margin-top: 10px;
+  padding: 10px 0;
+
+  min-height: calc(250 / 14 * 1rem);
+  border-radius: calc(16 / 14 * 1rem);
+  margin-top: calc(10 / 14 * 1rem);
+  padding: calc(10 / 14 * 1rem) 0;
+}
+
+
+
+#widgets-labels ul {
+  margin: 0 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 0 5px #24c33d, inset 0 1px 0 0 #72e633;
+  background: linear-gradient(#24c33d,#48e132);
+
+  margin: 0 calc(10 / 14 * 1rem);
+  border-radius: calc(20 / 14 * 1rem);
+  box-shadow: 0 0 0 calc(5 / 14 * 1rem) #24c33d, inset 0 calc(1 / 14 * 1rem) 0 0 #72e633;
+}
+#widgets-labels li {
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 0 0 #24c33d;
+
+  border-radius: calc(10 / 14 * 1rem);
+  padding: calc(10 / 14 * 1rem) calc(15 / 14 * 1rem);
+  border-radius: calc(20 / 14 * 1rem);
+  box-shadow: 0 calc(2 / 14 * 1rem) 0 0 #24c33d;
+}
+
+#widgets-labels li span {
+  margin-left: 10px;
+
+  margin-left: calc(10 / 14 * 1rem);
+}
+#widgets-labels li > i {
+
+}
+#widgets-labels li a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
