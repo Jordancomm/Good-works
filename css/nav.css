@@ -1,0 +1,50 @@
+#nav {
+  width: calc(100% - 300px);
+  margin: 0 auto;
+  background: #24c33d;
+  border-radius: 50px;
+  box-shadow: 0 0 0 1px #159a2a;
+  margin-top: -25px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  position: relative;
+
+  width: calc(100% - 21.43rem);
+  border-radius: 3.57rem;
+  box-shadow: 0 0 0 0.07rem #159a2a;
+  margin-top: -1.79rem;
+  height: 3.57rem;
+  padding: 0 1.07rem;
+}
+#nav::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(./../i/bed22844c2a1adf270eafb57c46db285.png);
+
+  background-repeat: repeat-x;
+  background-size: auto 30px;
+  background-size: auto 100%;
+}
+#nav ul {
+  position: relative;
+}
+#nav li {
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  font-weight: bold;
+  background: #159a2a;
+  border-radius: 8px;
+  padding: 5px 15px;
+  line-height: 50px;
+  display: inline;
+
+  border-radius: 0.57rem;
+  padding: 0.36rem 1.07rem;
+  line-height: 3.57rem;
+}
